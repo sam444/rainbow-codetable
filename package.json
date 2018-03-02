@@ -1,0 +1,22 @@
+{
+  "name": "rainbow-foundation-codetable",
+  "version": "2.0.20",
+  "description": "Rainbow Foundation Codetable",
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "doc":"jsdoc2md src/**/*.js > ../../other/developer/src/doc/data/doc/README.md"
+  },
+  "keywords": [],
+  "author": "RainbowUI Team",
+  "dependencies": {
+        "jsdoc-to-markdown": "^3.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://repo.ebaotech.com/artifactory/api/npm/npm-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://oss.ebaotech.com/rainbow-foundation/codetable-service.git"
+  }
+}
